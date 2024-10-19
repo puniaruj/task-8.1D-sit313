@@ -1,0 +1,54 @@
+.post-container {
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+  margin-top: 30px;
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-header {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 50px;
+  letter-spacing: 1.2px;
+}
+
+.post-type-heading {
+  font-size: 26px;
+  color: #2980b9;
+  margin-bottom: 25px;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.radio-label {
+  font-size: 20px;
+  color: #16a085;
+}
+
+.radio-label input {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .post-container {
+      padding: 25px;
+  }
+
+  .main-header {
+      font-size: 30px;
+  }
+
+  .post-type-heading {
+      font-size: 22px;
+  }
+}

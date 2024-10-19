@@ -1,0 +1,45 @@
+.nav-menu {
+  background-color: rgba(193, 209, 221, 0.407);
+
+  padding: 20px 30px;
+  box-shadow: 0 2px 10px rgb(8, 9, 97);
+}
+
+.nav-menu .item {
+  color: #34495e;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 20px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.nav-menu .item:hover {
+  background-color: rgba(81, 117, 141, 0.2);
+  color: #1a2933;
+}
+
+.nav-menu .active.item {
+  background-color: #2b363d;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.nav-menu .item:focus {
+  outline: none;
+}
+
+.nav-menu .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+      padding: 10px 15px;
+  }
+
+  .nav-menu .item:not(:last-child) {
+      margin-right: 15px;
+  }
+}

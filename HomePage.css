@@ -1,0 +1,28 @@
+.home-page {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.deakin.edu.au/__data/assets/image/0006/2531994/students_footbridge_burwood_900x455.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.welcome-header {
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9);
+  transition: transform 0.3s ease, color 0.3s ease;
+  z-index: 1;
+}
+
+.welcome-header:hover {
+  transform: scale(1.15);
+  color: #1abc9c;
+  background-color: #ffffff33;
+}
